@@ -23,7 +23,7 @@ public class CountBitsTest {
         if(instance.count(13) != 3)
             fail("The test case is a prototype.");
 
-        if(instance.count(2) != 1)
+        if(instance.count(-2147483647) != 2)
             fail("The test case is a prototype.");
     }
     
