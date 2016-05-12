@@ -1,4 +1,7 @@
-
+/*
+Дано повний шлях до файла в Unix системі. Наприклад /home/../var/./lib//file.txt 
+Необхідно повернути спрощений варіант. (/var/lib/file.txt)
+*/
 package codegym;
 
 public class UnixPath 
